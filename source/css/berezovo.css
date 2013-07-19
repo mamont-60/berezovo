@@ -1,14 +1,148 @@
+body {
+font-family: tahoma,arial;
+background:#ece9d8;
+font-size:14pt;
+}
+
+
+
+.container{
+
+}
+
+
+
+
+.header {
+margin-top: 5px;
+height: 119px;
+width: 940px;
+border: px solid #000;
+background-colr:#c0d2e2;
+background-image: url("../img/ventil.png");
+}
+
+.site-title {
+margin-top: 5px;
+height: 119px;
+width: 940px;
+border: px solid #000;
+background-image: url("../img/text60.png");
+background-repeat: no-repeat;
+background-position: 130px 40px;
+/*
+	НАДО: сделать фон шрифтом газеты "Известия" с текстом "60 лет газу Западной Сибири".
+	*/
+}
+
+
+.linetop 
+height: 3px;
+
+border: px solid #000;
+background-color:#000;
+}
+
+
+.hmenu {
+height: 30px;
+width: 940px;
+border: px solid #000;
+background-colr:#d4d4d4;
+}
+
+
+.centercontent {
+height: 576px;
+width: 940px;
+border: px solid #000;
+background: url("../img/bashnia.png"), url("../img/map.png");
+background-repeat: no-repeat;
+background-position: 50px 10px,250px 130px;
+position:relative;
+}
+
+
+.text1 {
+font-size:14pt;
+height: 400px;
+width: 400px;
+margin-left: 500px;
+padding-top: 100px;
+
+}
+
+.linebottom {
+height: 3px;
+border: px solid #000;
+background-color:#000;
+}
+
+
+
+.footer {
+height: 73px;
+width: 940px;
+border: px solid #000;
+background-coor:#c0d2e2;
+}
+
+
+.heraldic-hanty {
+height: 73px;
+width: 940px;
+background-image: url("../img/admin.png");
+background-repeat: no-repeat;
+background-position: 10px 10px;
+	/*
+	НАДО: фон с гербом Ханты-Мансийска.
+	*/}
+
+
+.point {
+position:absolute;
+left:358px;
+top:245px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .heraldic
 {
 	display: inline-block;
 }
 
-.heraldic-hanty
-{
-	/*
-	НАДО: фон с гербом Ханты-Мансийска.
-	*/
-}
+
 
 .heraldic-berezovo
 {
@@ -17,9 +151,3 @@
 	*/
 }
 
-.site-title
-{
-	/*
-	НАДО: сделать фон шрифтом газеты "Известия" с текстом "60 лет газу Западной Сибири".
-	*/
-}
