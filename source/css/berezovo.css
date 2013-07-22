@@ -1,108 +1,114 @@
 body {
 font-family: tahoma,arial;
-background:#ece9d8;
+background: #ece9d8;  #ebf9fc;
 font-size:14pt;
+margin:0;
+padding:0;
 }
-
-
 
 .container{
-
 }
 
 
+.navigator{
+ margin-top:0px;
+ position:absolute;
+ left:540px;
+ top:180px;
+ text-align:left;
+ width:300px;
+ border:px solid #000;
+ }
 
-
-.header {
-margin-top: 5px;
-height: 119px;
-width: 940px;
-border: px solid #000;
-background-colr:#c0d2e2;
-background-image: url("../img/ventil.png");
-}
-
-.site-title {
-margin-top: 5px;
-height: 119px;
-width: 940px;
-border: px solid #000;
-background-image: url("../img/text60.png");
-background-repeat: no-repeat;
-background-position: 130px 40px;
-/*
-	НАДО: сделать фон шрифтом газеты "Известия" с текстом "60 лет газу Западной Сибири".
-	*/
-}
-
-
-.linetop 
-height: 3px;
-
-border: px solid #000;
-background-color:#000;
-}
-
-
-.hmenu {
-height: 30px;
-width: 940px;
-border: px solid #000;
-background-colr:#d4d4d4;
-}
 
 
 .centercontent {
 height: 576px;
 width: 940px;
 border: px solid #000;
-background: url("../img/bashnia.png"), url("../img/map.png");
-background-repeat: no-repeat;
-background-position: 50px 10px,250px 130px;
 position:relative;
+ }
+
+
+.bashnia {
+position:absolute;
+left:18px;
+top:5px;
 }
 
 
-.text1 {
-font-size:14pt;
-height: 400px;
-width: 400px;
-margin-left: 500px;
-padding-top: 100px;
+.point {
+border:px solid #000;
+position:absolute;
+left:331px;
+top:235px;
+cursor:pointer;
+}
+
+
+.textpage1 {
+height:140px;
+width:600px;
+border: px solid #000;
+position:absolute;
+left:342px;
+top:20px;
+font-size:10pt;
+font-weight:bold;
+text-align:left;
 
 }
+
 
 .linebottom {
-height: 3px;
+height: 2px;
+width:940px;
 border: px solid #000;
 background-color:#000;
 }
 
+.linebottom2 {
+height: 1px;
+width:940px;
+border: px solid #000;
+background-color:#000;
+margin-top: 3px;
+}
 
 
 .footer {
-height: 73px;
+height: 100%;
 width: 940px;
-border: px solid #000;
-background-coor:#c0d2e2;
+position: relative;
 }
 
 
 .heraldic-hanty {
 height: 73px;
-width: 940px;
-background-image: url("../img/admin.png");
-background-repeat: no-repeat;
+width: 60px;
 background-position: 10px 10px;
-	/*
-	НАДО: фон с гербом Ханты-Мансийска.
-	*/}
-
-
-.point {
+margin-top:10px;
 position:absolute;
-left:358px;
-top:245px;
+}
+
+
+.hmaotext {
+border:px solid #000;
+height: 40px;
+width: 400px;
+font-size:9pt;
+margin-top:15px;
+margin-left:60px;
+position:absolute;
+font-weight:bold;
+text-align:left;
+}
+
+
+
+.lenta {
+margin-left:861px;
+position:absolute;
 }
 
 
@@ -137,17 +143,7 @@ top:245px;
 
 
 
-.heraldic
-{
-	display: inline-block;
-}
 
 
 
-.heraldic-berezovo
-{
-	/*
-	НАДО: фон с гербом Берёзово.
-	*/
-}
 
